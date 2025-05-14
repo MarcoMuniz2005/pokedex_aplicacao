@@ -1,0 +1,73 @@
+#body {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  color: black;
+  min-height: 100vh;
+  padding-top: 120px;
+  background-image: url(./img/pokewallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+.container > div {
+  text-align: center;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.pokemon-card {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: none;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logo {
+  height: 80px;
+}
+
+.carousel-item img {
+  max-height: 300px ;
+  object-fit: contain ;
+  margin: auto ;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent !important;
+  border: none;
+}
+
+.custom-icon img {
+  width: 60px;
+  height: 60px;
+}
+
+
+@media (max-width: 576px) {
+  .custom-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
