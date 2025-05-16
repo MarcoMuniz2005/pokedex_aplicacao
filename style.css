@@ -38,12 +38,18 @@ button {
 .logo {
   height: 80px;
 }
+.pokemon-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.carousel-item img {
-  max-height: 300px ;
-  object-fit: contain ;
-  margin: auto ;
-}
+  .carousel-item {
+    text-align: center; /* Centraliza a imagem no slide */
+  }
 
 .carousel-control-prev,
 .carousel-control-next {
